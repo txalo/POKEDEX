@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
+
+:root {
+  --bug: #8cb330;
+  --dark: #58575f;
+  --dragon: #0f6ac0;
+  --electric: #eed535;
+  --fairy: #ed6ec7;
+  --fighting: #d04164;
+  --fire: #fd7d24;
+  --flying: #748fc9;
+  --ghost: #556aae;
+  --grass: #62b957;
+  --ground: #dd7748;
+  --ice: #61cec0;
+  --normal: #9da0aa;
+  --poison: #a552cc;
+  --psychic: #ea5d60;
+  --rock: #baab82;
+  --steel: #417d9a;
+  --water: #4a90da;
+  --bg-bug: #8bd674;
+  --bg-dark: #6f6e78;
+  --bg-dragon: #7383b9;
+  --bg-electric: #f2cb55;
+  --bg-fairy: #eba8c3;
+  --bg-fighting: #eb4971;
+  --bg-fire: #ffa756;
+  --bg-flying: #83a2e3;
+  --bg-ghost: #8571be;
+  --bg-grass: #8bbe8a;
+  --bg-ground: #f78551;
+  --bg-ice: #91d8df;
+  --bg-normal: #b5b9c4;
+  --bg-poison: #9f6e97;
+  --bg-psychic: #ff6568;
+  --bg-rock: #d4c294;
+  --bg-steel: #4c91b3;
+  --bg-water: #58abf6;
+}
+
+.type-bug{
+  background-color: var(--bug);
+}
+
+.type-dark{
+  background-color: var(--dark);
+}
+
+.type-dragon{
+  background-color: var(--dragon);
+}
+
+.type-electric{
+  background-color: var(--electric);
+}
+
+.type-fairy{
+  background-color: var(--fairy);
+}
+
+.type-fighting{
+  background-color: var(--fighting);
+}
+
+.type-fire{
+  background-color: var(--fire);
+}
+
+.type-flying{
+  background-color: var(--flying);
+}
+
+.type-ghost{
+  background-color: var(--ghost);
+}
+
+.type-grass{
+  background-color: var(--grass);
+}
+
+.type-ground{
+  background-color: var(--ground);
+}
+
+.type-ice{
+  background-color: var(--ice);
+}
+
+.type-normal{
+  background-color: var(--normal);
+}
+
+.type-poison{
+  background-color: var(--poison);
+}
+
+.type-psychic{
+  background-color: var(--psychic);
+}
+
+.type-rock{
+  background-color: var(--rock);
+}
+
+.type-steel{
+  background-color: var(--steel);
+}
+
+.type-water{
+  background-color: var(--water);
+}
+
+.color-bug{
+  color: var(--bug);
+}
+.color-dark{
+  color: var(--dark);
+}
+.color-dragon{
+  color: var(--dragon);
+}
+.color-electric{
+  color: var(--electric);
+}
+.color-fairy{
+  color: var(--fairy);
+}
+.color-fighting{
+  color: var(--fighting);
+}
+.color-fire{
+  color: var(--fire);
+}
+.color-flying{
+  color: var(--flying);
+}
+.color-ghost{
+  color: var(--ghost);
+}
+.color-grass{
+  color: var(--grass);
+}
+.color-ground{
+  color: var(--ground);
+}
+.color-ice{
+  color: var(--ice);
+}
+.color-normal{
+  color: var(--normal);
+}
+.color-poison{
+  color: var(--poison);
+}
+.color-psychic{
+  color: var(--psychic);
+}
+.color-rock{
+  color: var(--rock);
+}
+.color-steel{
+  color: var(--steel);
+}
+.color-water{
+  color: var(--water);
+}
+
+.bg-bug{
+  background-color: var(--bg-bug);
+}
+.bg-dark{
+  background-color: var(--bg-dark);
+}
+.bg-dragon{
+  background-color: var(--bg-dragon);
+}
+.bg-electric{
+  background-color: var(--bg-electric);
+}
+.bg-fairy{
+  background-color: var(--bg-fairy);
+}
+.bg-fighting{
+  background-color: var(--bg-fighting);
+}
+.bg-fire{
+  background-color: var(--bg-fire);
+}
+.bg-flying{
+  background-color: var(--bg-flying);
+}
+.bg-ghost{
+  background-color: var(--bg-ghost);
+}
+.bg-grass{
+  background-color: var(--bg-grass);
+}
+.bg-ground{
+  background-color: var(--bg-ground);
+}
+.bg-ice{
+  background-color: var(--bg-ice);
+}
+.bg-normal{
+  background-color: var(--bg-normal);
+}
+.bg-poison{
+  background-color: var(--bg-poison);
+}
+.bg-psychic{
+  background-color: var(--bg-psychic);
+}
+.bg-rock{
+  background-color: var(--bg-rock);
+}
+.bg-steel{
+  background-color: var(--bg-steel);
+}
+.bg-water{
+  background-color: var(--bg-water);
+}
+
+*{
+  font-family: 'Nunito Sans', sans-serif;
+}
+.bg-red-100{
+  background-color: #e35d6a;
+  box-shadow: 2px 2px 1px 1px rgba(44, 11, 14, 0.8);
+}
+
+#pokemon-list li{
+  background-position: 98% top; 
+  background-size: 72px; 
+  background-repeat: no-repeat;
+}
+
+.pokeball-menu{
+  height: 32px; 
+  opacity: 0.5; 
+  rotate: -15deg;  
+  margin: 0 8px;     
+}
+
+.pokemon-menu-id{
+  margin-bottom: -.5rem;
+}
+
+#content {
+  max-width: 768px !important;
+  height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#pokemon-info {
+  margin-top: -3.5rem;
+  z-index: 1;
+}
+
+#pokemon-evolution img{
+  width: 5.5rem;
+}
